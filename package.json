@@ -12,7 +12,8 @@
     "pages": "git subtree push --prefix dist origin gh-pages",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "post-create": "npm install"
   },
   "keywords": [],
   "author": "",
